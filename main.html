@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAIN</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&family=Oxygen&family=Quicksand&display=swap" rel="stylesheet"> 
+    <style>
+    body{
+        font-family: 'Oxygen', sans-serif;
+    }
+    h1{
+        text-align: center;
+        font-size: 50px;
+        top:-.5em;
+        position:relative;
+        }
+    
+    #screen{
+        margin-left:auto;
+        margin-right:auto;
+        margin-top: 2%;
+        position:relative;
+        width: 1000px;
+        height:650px;
+        border: 2px solid rgba(11, 66, 168, 0.993);
+        border-radius: 6em;
+        }
+
+    a:link, a:visited{
+        margin-left:52%;
+        margin-right:15%;
+        margin-top: 2.8em;
+        margin-bottom: -2.3em;
+        display:block;
+        
+        background-color: #279;
+        color: white;
+        padding: 18px 75px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 25px;
+        border-radius: 20px;
+        }
+
+    img#skeleton {
+        width:200px;
+        height:590px;
+        position:absolute;
+        top:60px; 
+        left:180px;
+         }
+
+    .hover_img a:hover{
+        background-color: #38a;
+    }
+    .hover_img a span {     
+        display:none; 
+        position: absolute;
+        top:60px; 
+        left:180px;
+         }
+
+    .hover_img a:hover span { 
+        display:block; 
+        }
+
+    </style>
+</head>
+<body>
+    
+
+    <div id="screen">
+        <h1>BASIC SKELETAL ANATOMY</h1>
+        <div class="main"><img id="skeleton" src="main/newmain.png"></div>
+        <div class="hover_img">
+        <a href="skull.html">SKULL<span><img src="main/newmain_skull.png" alt="image" height="590" width="200" /></span></a>
+        <a href="arm.html" >ARM<span><img src="main/newmain_arm.png" alt="image" height="590" width="200" /></span></a>
+        <a href="torso.html">TORSO<span><img src="main/newmain_torso.png" alt="image" height="590" width="200" /></span></a>
+        <a href="leg.html">LEG<span><img src="main/newmain_leg.png" alt="image" height="590" width="200"/></span></a>
+        </div>
+   </div>
+
+
+   
+</body>
+</html>
